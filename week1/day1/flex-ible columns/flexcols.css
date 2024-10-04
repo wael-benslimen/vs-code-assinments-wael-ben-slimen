@@ -1,0 +1,38 @@
+.row{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+
+}
+.col{
+    background-color: aquamarine;
+    border: 2px black solid;
+    width: 100px;
+    height: 100px;
+}
+.row2{
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(177, 200, 204);
+
+}
+.col-1{
+    flex: 1 1 auto;
+}
+.col-2{
+    flex: 2 1 auto;
+}
+.row3{
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(15, 202, 235);
+}
+.col-3{
+    flex: 2 1 auto;
+}
+.col-4{
+    flex: 3 1 auto;
+}
