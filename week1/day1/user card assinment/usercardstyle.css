@@ -1,0 +1,35 @@
+.img{
+    width: 20px;
+    height: 20px;
+}
+.user{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin-top: -30px;
+    margin-left:20px ;
+}
+.main{
+    border: 1px solid black;
+    margin: 70px;
+    padding-bottom: 10px;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+.top{
+    height:90px;
+    background-color: #17A2B8;
+}
+.bottom{
+    margin-left: 10px;
+
+}
+.jane{
+    display: inline-block;
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
