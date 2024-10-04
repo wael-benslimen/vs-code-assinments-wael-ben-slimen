@@ -1,0 +1,151 @@
+/*nav bar*/
+    .navbar{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .btn{
+        font-weight: 900;
+        color: white;
+        background-color: #17A2B8;
+    }
+    .h{
+        flex: 1 1 auto;
+        margin-right: 20px;
+    }
+    .link{
+        position: relative;
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+    }
+    .links{
+        margin-left: 20px;
+        flex: 1000 1 auto;
+        position: relative;
+    }
+/*main*/
+/*card*/
+    .img{
+        width: 20px;
+        height: 20px;
+    }
+    .user{
+        width: 70px;
+        height: 70px;
+        position: relative;
+        margin-top: -30px;
+        margin-left:20px ;
+    }
+    .main{
+        border: 1px solid #CFCFCF;
+        margin: 70px;
+        padding-bottom: 10px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .top{
+        height:90px;
+        background-color: #17A2B8;
+    }
+    .bottom{
+        margin-left: 10px;
+
+    }
+    .jane{
+        display: inline-block;
+    }
+    .location{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+/*edu*/
+    .edu{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #CFCFCF;
+        padding-bottom: 10px;
+        margin-top: 50px;
+    }
+    .topedu{
+        display: flex;
+        align-items: center;
+        height:90px;
+        background-color: #333333;
+        padding-left: 20px;
+    }
+    .botedu{
+        padding-left: 20px;
+    }
+/*conreq/conct*/
+.img1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.p{
+    display: flex;
+    padding-right: 5px;
+}
+.conct{
+    border: 1px solid #CFCFCF;
+    margin: 70px;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+.botcon{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    padding-left: 5px;
+}
+.botconct{
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    padding-left: 5px;
+}
+.view{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+/*align*/
+.container{
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border: 1px solid #CFCFCF;
+    margin: 70px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+
+}
+.chcont{
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 auto;
+    
+}
+.chcont1 {
+    display: flex;
+    flex-direction: column;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    justify-content: center;
+    margin: auto;
+    margin-top: -10px;
+}
