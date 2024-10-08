@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- nav bar -->
+     <div class="navbar">
+        <h1>dojoweather</h1>
+        <ul class="list">
+            <li onclick="city()">burbank</li>
+            <li onclick="city()">chicago</li>
+            <li onclick="city()">dallas</li>
+        </ul>
+     </div>
+      <!-- main page -->
+      <div class="main">
+        <!-- top sec -->
+        <div class="top">
+            <h1>san jose</h1>
+            <div class="tempurature">
+                <p>show temperature in</p>
+                <select name="temp" id="temp" onclick="feh(this)">
+                    <option value="°C">°C</option>
+                    <option value="°F">°F</option>
+                </select>
+            </div>
+            
+        </div>
+        <!-- bot sec -->
+        <div class="bottom">
+            <!-- sections -->
+            <div class="sec">
+                <h2>today</h2>
+                <img src="./assets/assets/some_rain.png" alt="rain">
+                <p>some rain</p>
+                <div class="tnum">
+                    <p class="red" id="t1">24°</p>
+                    <p class="blue" id="t2">18°</p>
+                </div>
+            </div>
+            <div class="sec">
+                <h2>tomorrow</h2>
+                <img src="./assets/assets/some_sun.png" alt="sun">
+                <p>some sun</p>
+                <div class="tnum">
+                    <p class="red" id="t3">27°</p>
+                    <p class="blue" id="t4">19°</p>
+                </div>
+                
+            </div>
+            <div class="sec">
+                <h2>friday</h2>
+                <img src="./assets/assets/some_clouds.png" alt="clouds">
+                <p>some clouds</p>
+                <div class="tnum">
+                    <p class="red" id="t5">21°</p>
+                    <p class="blue" id="t6">16°</p>
+                </div>
+            </div>
+            <div class="sec">
+                <h2>saturday</h2>
+                <img src="./assets/assets/some_sun.png" alt="sun">
+                <p>some sun</p>
+                <div class="tnum">
+                    <p class="red" id="t7">26°</p>
+                    <p class="blue" id="t8">21°</p>
+                </div>
+
+            </div>
+        </div>           
+        <!-- cookies -->
+        <div class="cookies" id="cookie">
+            <img src="./assets/assets/cookie.png" alt="cookie" class="cimg">
+            <div class="txt">
+                <h3>stop! cookie time</h3>
+                <p>we use cookies (sadly not edible ones) to personalize content and ads to provide social media features and to analyse our trafic <a href="#">read more</a> </p>
+            </div>
+            <button class="btn" onclick="del('cookie')">i accept</button>
+         </div>
+      </div>
+    <script src="./script.js"></script>
+</body>
+</html>

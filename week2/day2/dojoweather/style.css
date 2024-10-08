@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* nav bar */
+.navbar{
+    flex-wrap: wrap;
+    background-color: #9FC5F8;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40%;
+    color: white;
+}
+.list{
+    display: inline-flex;
+    gap: 20%;
+    list-style: none;
+}
+/* main page */
+/* tempureture bar */
+.top{
+    display: flex;
+    gap: 400px;
+    align-items: center;
+    border-bottom: black 2px solid;
+}
+.tempurature{
+    display: flex;
+}
+/* main content */
+img{
+    width: 70px;
+    border-radius: 50%;
+}
+.sec{
+    background-color:#EEEEEE ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    height:230px;
+}
+.tnum{
+    display: inline-flex;
+    gap: 60%;
+    justify-content: center;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.bottom{
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+/* cookies */
+.cookies{
+    background-color:#EEEEEE ;
+    border: solid;
+    display: flex;
+    gap: 1%;
+    width: 70%;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    position: fixed;
+    margin-bottom: -50%;
+}
+.cimg{
+    width: 50px;
+    height: 50px;
+}
+.btn{
+    background-color: #9FC5F8;
+    width: 100px;
+    height: fit-content;
+    box-shadow: 2px 2px black;
+}
+/* main */
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
