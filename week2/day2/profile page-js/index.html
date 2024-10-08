@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="h">profile</h1>
+        <div class="links">
+            <a href="" class="link">home</a>
+            <a href="" class="link">profile</a>
+            <a href="" class="link">find connections</a>
+        </div>
+        <button type="button" class="btn">sign out</button>
+    </div>
+    <div class="page">
+
+        <div class="container">
+            <div class="chcont">
+                <div class="card">
+                    <div class="main">
+                        <div class="top">
+                            
+                        </div>
+                        <img src="./icons/user-circle.png" alt="user" class="user">
+                        <div class="bottom">
+                            <div class="jane">
+                                <h1 id="janedoe">jane doe</h1>
+                                <div class="location">
+                                    <img src="./icons/map-marker.png" alt="map" class="img"><p>seattle</p>
+                                </div>
+                            
+                            </div>
+                            <div class="disc">
+                                <p>Dev | Engineer | Problem Solver <br> Master of shadow and internet!</p>
+                                <img src="./icons/gear.png" alt="gear" class="img"><a href="#" onclick="change('janedoe')">edit profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu">
+                    <div class="topedu">
+                        <h1>education</h1>
+                    </div>
+                    <div class="botedu">
+                        <p>coding dojo - full stack bootcump <br> Dec 2019 - mar 2020 <br> triple black belt in python mern and c# </p>
+                    </div>
+                </div>
+            </div>
+            <div class="chcont1">
+                <div class="conreq edu">
+                    <div class="topcon topedu">
+                        <h4 class="num" id="cnum">2</h4>
+                        <h2>connection request</h2>
+                    </div>
+                    <div class="botcon">
+                        <div class="p"  id="del1">
+                            <img src="./icons/adrien-s.jpg" alt="name" class="img1"> <p>todd E</p>
+                            <div class="bmark">
+                                <button class="mark"  onclick="del(this,'del1','cnum')">✔</button>
+                                <button class="mark" onclick="del(this,'del1','cnum')">✕</button>
+                            </div>
+                        </div>
+                        <div class="p" id="del2">
+                            <img src="./icons/alayne-s.jpg" alt="name" class="img1"> <p>amy k</p>
+                            <div class="bmark">
+                                <button class="mark" onclick="del(this,'del2','cnum')">✔</button>
+                                <button class="mark"onclick="del(this,'del2','cnum')" > ✕</button>
+                            </div>
+                            
+                        </div>
+                     
+                    </div>
+                </div>
+                <div class="conct">
+                    <div class="topconct topedu">
+                        <h4 class="num" id="yc">500</h4>
+                        <h2>your conections</h2>
+                    </div>
+                    <div class="botconct ">
+                        <div class="p">
+                            <img src="./icons/anne-s.jpg" alt="name" class="img1"> <p>arry E</p>
+                        </div>
+                        <div class="p">
+                            <img src="./icons/arry-s.jpg" alt="name" class="img1"> <p>kalil</p>
+                        </div>
+                        <div class="p">
+                            <img src="./icons/jane-m.jpg" alt="name" class="img1"> <p>laura</p>
+                        </div>
+                        <div class="p">
+                            <img src="./icons/phil-s.jpg" alt="name" class="img1"> <p>phil</p>
+                        </div>
+                        <div class="border">
+                            <div class="view"><a href="">view more</a></div>
+                        </div>
+                        
+                        </div>
+                    </div>
+            </div>
+    
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
