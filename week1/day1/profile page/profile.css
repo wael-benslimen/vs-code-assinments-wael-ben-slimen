@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 
+=======
+*{
+}
+>>>>>>> e22a01680f8c93d704a71bcf8acd823ea71abb58
 /*nav bar*/
     .navbar{
         background-color: black;
@@ -187,4 +192,8 @@
     height: 30px;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e22a01680f8c93d704a71bcf8acd823ea71abb58
